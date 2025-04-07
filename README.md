@@ -21,6 +21,11 @@ The **Book Management System** is a comprehensive solution designed to manage th
 - **Others:**
   - Session management for user login/logout
   - Password hashing for secure login
+  - Seamless checkout experience with PayPal
+  - Secure and encrypted payment gateway
+  - Real-time order confirmation
+  - 💳 Make Payment via PayPal
+
 
 ## Installation
 
@@ -35,8 +40,9 @@ Follow the steps below to set up the **Book Management System** locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/book-management-system.git
+   git clone https://github.com/eugene12345678/book_management_system
    cd book-management-system
+   ```
 
 2. **Set up the database:**
 
@@ -46,31 +52,39 @@ Follow the steps below to set up the **Book Management System** locally:
 
    Example of importing the SQL file:
 
-```sql
-Copy
-Edit
-SOURCE /path/to/bookdatabase.sql;
-```
+   ```sql
+   SOURCE /path/to/bookdatabase.sql;
+   ```
 3. **Configure the database connection:**
 
    - Open `includes/connection.php` and update the database credentials as per your local setup.
 
-```php
-Copy
-Edit
-$host = 'localhost';
-$username = 'root';  // Your MySQL username
-$password = '';      // Your MySQL password
-$dbname = 'bookdatabase'; // The name of the database
-```
+   ```php
+   $host = 'localhost';
+   $username = 'root';  // Your MySQL username
+   $password = '';      // Your MySQL password
+   $dbname = 'bookdatabase'; // The name of the database
+   ```
 4. **Start your local server:**
 
    - Start Apache and MySQL via XAMPP or MAMP, or use the built-in PHP server:
 
-```bash
-php -S localhost:8000
-```
-   - Visit ``http://localhost:8000`` in your browser to access the application.
+   ```bash
+    php -S localhost:8000
+   ```
+
+   - Alternatively, you can run Apache and MySQL locally using ``systemctl`` on Linux:
+
+   ```bash
+   sudo systemctl start apache2
+   sudo systemctl start mysql
+   ```
+   - Once Apache and MySQL are running, visit ``http://localhost:8000`` in your browser to access the application.
+
+
+   **Explanation:**
+   - The additional `systemctl` commands will allow users to start Apache and MySQL services on Linux-based systems (e.g., Ubuntu, Kali linux).
+
 
 ## Usage
 
@@ -95,7 +109,6 @@ Once the application is running, you can use the following features:
 5. **Admin Panel:**
    - Admins can manage users and books. They can add new books, delete existing ones, and manage customer orders.
 
-
 ## Screenshots
 1. **Login Page**
    ![Login Page](screenshots/login_page.png)
@@ -106,3 +119,46 @@ Once the application is running, you can use the following features:
 3. **Admin Dashboard**
    ![Admin Dashboard](screenshots/admin_dashboard.png)
 
+4. **Add Book**
+   ![Add book](screenshots/add_book.png)
+
+5. **Cart**
+   ![Cart](screenshots/cart.png)
+
+6. **Order**
+   ![Order](screenshots/order.png)
+
+7. **Hash Password**
+   ![Hash Password](screenshots/hashed.png)
+
+6. **Support**
+   ![Support](screenshots/support.png)
+
+## Contributing
+
+We welcome contributions to this project! If you find a bug, have an idea for a feature, or would like to help improve the documentation, please follow these steps:
+
+1. **Fork the repository**.
+2. **Create a new branch**:
+   ```bash
+   git checkout -b feature-branch
+   ```
+3. **Make changes and commmit**
+   ```bash
+   git commit -m 'Add new feature'
+   ```
+4. **Push to your fork**
+   ```bash
+   git push origin feature-branch
+   ```
+5. **Open a pull request**
+
+## Lincense
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+If you have any questions, feel free to reach out to the project maintainer:
+
+- **Email:** eugenemathenge4@gmail.com
+
+- **GitHub:** eugene12345678
