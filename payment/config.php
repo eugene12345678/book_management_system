@@ -2,9 +2,9 @@
 
 	// Database Configuration 
 	define('DB_HOST', 'localhost'); 
-	define('DB_NAME', 'bookstoredatabase'); 
+	define('DB_NAME', 'bookdatabase'); 
 	define('DB_USERNAME', 'root'); 
-	define('DB_PASSWORD', 'dedsec44678@'); 
+	define('DB_PASSWORD', 'eugene254$'); 
 
 	// PayPal Configuration
 	define('PAYPAL_EMAIL', 'sb-wx1bv26591863@business.example.com'); 
