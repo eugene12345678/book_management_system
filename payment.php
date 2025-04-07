@@ -20,7 +20,9 @@
                     <!-- PayPal business email to collect payments -->
                     <input type='hidden' name='business' value='<?php echo PAYPAL_EMAIL; ?>'>
 
-                    
+                    <!-- Details of the item that customers will purchase -->
+                    <input type='hidden' name='item_number' value="1">
+                    <input type='hidden' name='item_name' value='<?php echo 'books'; ?>'>
                     
                 </form>
             </div>
