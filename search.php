@@ -27,7 +27,7 @@
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <!-- Display book name and price -->
                                                     <small class="no-underline"><?php echo $book_list_row['book_name']; ?></small>
-                                                    <small class="text-body-secondary">₸ <?php echo $book_list_row['book_price']; ?></small>
+                                                    <small class="text-body-secondary">$ <?php echo $book_list_row['book_price']; ?></small>
                                                 </div>
                                             </div>
                                         </div>

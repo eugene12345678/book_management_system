@@ -36,7 +36,7 @@
         echo '
             <tr>
                 <td colspan="5">Total: </td>
-                <td colspan="2">KZT ' . $total_price . ' </td>
+                <td colspan="2">$ ' . $total_price . ' </td>
             </tr>
 
             <div align="center" style="margin-top: 20px">

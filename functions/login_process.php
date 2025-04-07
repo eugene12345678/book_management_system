@@ -34,7 +34,8 @@
 
                 if (!empty($value_of_username)) 
                 {
-                    if(!empty($value_of_password)) 
+                    if (password_verify($password, $value_of_username['register_password'])) 
+                    
                     {
                         // User information
                         $_SESSION['client']['username'] = $value_of_username['register_user_name'];

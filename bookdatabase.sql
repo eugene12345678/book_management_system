@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS `admin_table` (
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4 AUTO_INCREMENT = 1;
 
 --
---`admin_table`
+-- `admin_table`
 --
 
 INSERT INTO `admin_table` (`admin_user_name`, `admin_password`) VALUES 
@@ -65,14 +65,26 @@ CREATE TABLE IF NOT EXISTS `book_table` (
   	`book_category` VARCHAR(50) NOT NULL,
   	`book_description` LONGTEXT NOT NULL,
   	`book_price` INT(4) NOT NULL,
-  	`book_img` VARCHAR(50) NOT NULL,
+  	`book_img` VARCHAR(255) NOT NULL,
   	`book_time` INT(20) NOT NULL,
   	PRIMARY KEY (`book_id`)
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4 AUTO_INCREMENT = 1;
 
---book_table
+-- book_table
 
 INSERT INTO `book_table` (`book_name`, `book_category`, `book_description`, `book_price`, `book_img`) VALUES
+('Harry Potter and the Chamber of Secrets', 'Fantasy', 'Harry returns for his second year at Hogwarts, where a dark force is petrifying students and secrets lie hidden beneath the school.', 2900, 'https://m.media-amazon.com/images/I/91OINeHnJGL._SL1500_.jpg'),
+
+('The Great Gatsby', 'Classic Fiction', 'The story of the millionaire Jay Gatsby and his pursuit of the American Dream.', 2000, 'https://m.media-amazon.com/images/M/MV5BMTkxNTk1ODcxNl5BMl5BanBnXkFtZTcwMDI1OTMzOQ@@._V1_.jpg'),
+
+('The Hobbit', 'Fantasy', 'A young hobbit, Bilbo Baggins, embarks on a quest to reclaim a lost treasure from the dragon Smaug.', 1500, 'https://m.media-amazon.com/images/M/MV5BMzU0NDY0NDEzNV5BMl5BanBnXkFtZTgwOTIxNDU1MDE@._V1_.jpg'),
+
+('The Lord of the Rings', 'Fantasy', 'The epic saga of the hobbits, the ring bearer, and the wizard Gandalf.', 3000, 'https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/the_lord_of_the_rings.png'),
+
+('The Chronicles of Narnia', 'Fantasy', 'A series of adventures in a magical world where magic works for good and evil.', 2500, 'https://img.perlego.com/book-covers/4257998/9781998114641.jpg'),
+
+('Percy Jackson and the Olympians: The Lightning Thief', 'Fantasy', 'Percy discovers he is the son of Poseidon and embarks on a quest to retrieve Zeus\ lightning bolt and prevent a war among the gods.', 2500, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk2EbmTHm3Q-LvxumYtHjaRu63ELvUDcKfel-89iyojjTbQ6ELLa-QcaSUS9PzzyVJ91Y&usqp=CAU'),
+
 ('Brave New World', 'Dystopian', 'A futuristic society where humans are genetically engineered and conditioned for conformity. A chilling vision of a totalitarian future.', 2500, 'https://m.media-amazon.com/images/I/81zE42gT3xL._SL1500_.jpg'),
 
 ('1984', 'Dystopian', 'George Orwell’s classic novel about a totalitarian regime that uses surveillance and propaganda to oppress citizens. Big Brother is watching.', 2500, 'https://m.media-amazon.com/images/I/71kxa1-0mfL._SL1500_.jpg'),
@@ -102,6 +114,8 @@ INSERT INTO `book_table` (`book_name`, `book_category`, `book_description`, `boo
 ('A History of Religious Ideas', 'Religious Studies', 'Mircea Eliade traces the evolution of spiritual and religious thought across cultures from prehistory to modern times.', 1500, 'https://m.media-amazon.com/images/I/518Z7q3EdNL._SL1000_.jpg'),
 
 ('Affective Neuroscience', 'Neuroscience', 'Jaak Panksepp’s detailed exploration of the neural basis of emotions, combining science, psychology, and consciousness.', 3000, 'https://m.media-amazon.com/images/I/71bVN8ZwdwL._SL1360_.jpg');
+
+
 
 -- --------------------------------------------------------
 

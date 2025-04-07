@@ -12,7 +12,7 @@
             <div class='product_wrapper'>
                 
                 <!-- Display the total price in KZT received from the 'price' query parameter -->
-                <h2 class='price'>Total price: <?php echo $_SESSION['client']['order_total_price']; ?>₸</h2>
+                <h2 class='price'>Total price: <?php echo $_SESSION['client']['order_total_price']; ?>$</h2>
                 <br>
 
                 <form method='POST' action='<?php echo PAYPAL_URL; ?>'>
