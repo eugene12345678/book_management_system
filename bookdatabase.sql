@@ -176,7 +176,7 @@ CREATE TABLE IF NOT EXISTS `register_table` (
   	`register_email` VARCHAR(60) NOT NULL,
   	`register_question` VARCHAR(100) NOT NULL,
   	`register_answer` VARCHAR(50) NOT NULL,
-  	`register_profile_picture` VARCHAR(50) NOT NULL DEFAULT 'profile_img/profile_default_picture.png',
+  	`register_profile_picture` VARCHAR(255) NOT NULL DEFAULT 'profile_img/profile_default_picture.png',
   	`register_time` VARCHAR(20) NOT NULL,
   	PRIMARY KEY (`register_id`)
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4 AUTO_INCREMENT = 1;
