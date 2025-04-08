@@ -84,11 +84,15 @@
             else 
             {
                 $random_new_name = uniqid();
-
                 $new_name_for_file = $random_new_name . $_FILES['file']['name'];
+                $targetDir = __DIR__ . '/../img/';  // Absolute path to the img directory
 
-                move_uploaded_file($_FILES['file']['tmp_name'], "../img/" . $new_name_for_file);
-			    $img = "img/" . $_FILES['file']['name'];
+// Ensure the img directory exists
+                if (!is_dir($targetDir)) {
+                    mkdir($targetDir, 0755, true);  // Create the directory if it doesn't exist
+                }
+                if (move_uploaded_file($_FILES['file']['tmp_name'], $targetDir . $new_name_for_file)) {
+                    $img = "img/" . $new_name_for_file;}
             }
 		}
 
