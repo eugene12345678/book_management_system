@@ -110,8 +110,8 @@ Once the application is running, you can use the following features:
    - Admins can manage users and books. They can add new books, delete existing ones, and manage customer orders.
 
 ## Screenshots
-1. **Login Page**
-   ![Login Page](screenshots/login_page.png)
+1. **Sign Up**
+   ![Sign up Page](screenshots/login_page.png)
 
 2. **Book List**
    ![Book List](screenshots/book_list.png)
