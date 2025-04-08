@@ -47,9 +47,9 @@
 
         <h4>Gallery</h4>
         <div class="container d-flex justify-content-center gap-3 flex-wrap py-3">
-            <img src="images/store1.jpg" alt="Bookstore front" class="rounded" width="200">
-            <img src="images/reading_area.jpg" alt="Reading area" class="rounded" width="200">
-            <img src="images/bookshelf.jpg" alt="Bookshelf" class="rounded" width="200">
+            <img src="https://i.pinimg.com/736x/9b/29/4f/9b294f704948fd64fc2308224b605828.jpg" alt="Bookstore front" class="rounded" width="200">
+            <img src="https://c8.alamy.com/comp/2A7TMAP/picture-of-reading-area-in-the-yi-ji-you-maike-centre-flagship-store-a-bookstore-and-commercial-complex-occupying-4500-square-meters-with-130-thou-2A7TMAP.jpg" alt="Reading area" class="rounded" width="200">
+            <img src="https://www.designboom.com/twitterimages/uploads/2020/09/tall-bookshelf-arcs-mesmerizing-bookstore-xliving-china-designboom-1200.jpg" alt="Bookshelf" class="rounded" width="200">
         </div>
 
         <h4>Follow Us</h4>
