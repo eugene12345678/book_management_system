@@ -7,12 +7,12 @@
 
         <h2>About Us</h2>
         <p class="text-justify container">
-            Welcome to our online bookstore! I’m <strong>Eugene Mathenge</strong>, the founder and lead developer of this platform. What began as a simple love for books has evolved into a full-fledged digital haven for readers. This site was created to connect book lovers with great stories, inspiring authors, and a vibrant community.
+            Welcome to our online book management system! I’m <strong>Eugene Mathenge</strong>, the founder and lead developer of this platform. What began as a simple love for books has evolved into a full-fledged digital haven for readers. This site was created to connect book lovers with great stories, inspiring authors, and a vibrant community.
         </p>
 
         <h4>Our Story</h4>
         <p class="text-justify container">
-            The idea for this project was born in 2023, right here in <strong>Nairobi, Kenya</strong>. I wanted to make books more accessible through technology and create a platform that could bring people together through the power of storytelling. With hard work and a love for literature, this system was developed to serve both readers and administrators.
+            The idea for this project was born in 2025, right here in <strong>Diani, Kenya</strong>. I wanted to make books more accessible through technology and create a platform that could bring people together through the power of storytelling. With hard work and a love for literature, this system was developed to serve both readers and administrators.
         </p>
 
         <h4>Our Mission</h4>
@@ -33,7 +33,7 @@
 
         <h4>Our Store</h4>
         <p class="text-justify container">
-            Though our bookstore is fully online, our heart is rooted in Nairobi. Our goal is to provide the warmth, inspiration, and diversity of a physical bookstore—right at your fingertips. We aim to deliver joy to every reader, no matter where you are.
+            Though our book management system is fully online, our heart is rooted in Diani. Our goal is to provide the warmth, inspiration, and diversity of a physical bookstore—right at your fingertips. We aim to deliver joy to every reader, no matter where you are.
             <br><br>
             Thank you for visiting and supporting this project. Your presence means a lot, and I look forward to growing this community with you.
         </p>
