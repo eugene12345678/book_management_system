@@ -54,9 +54,9 @@
 
         <h4>Follow Us</h4>
         <p>
-            <a href="https://facebook.com/yourbookstore" target="_blank">Facebook</a> |
-            <a href="https://twitter.com/yourbookstore" target="_blank">Twitter</a> |
-            <a href="https://instagram.com/yourbookstore" target="_blank">Instagram</a>
+            <a href="https://github.com/eugene12345678" target="_blank">GitHub</a> |
+            <a href="https://x.com/EugeneMath42407" target="_blank">Twitter</a> |
+            <a href="https://instagram.com/matheng.e" target="_blank">Instagram</a>
         </p>
 
     </div>
