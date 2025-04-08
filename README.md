@@ -24,7 +24,7 @@ The **Book Management System** is a comprehensive solution designed to manage th
   - Seamless checkout experience with PayPal
   - Secure and encrypted payment gateway
   - Real-time order confirmation
-  - 💳 Make Payment via PayPal
+  - 💳 Make Payment via PayPal (on going)
 
 
 ## Installation
